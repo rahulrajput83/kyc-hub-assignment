@@ -1,11 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import logo from "../../assets/logo.png";
 import { CiUser } from "react-icons/ci";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
 import Sidebar from "../Sidebar/Sidebar";
-import { MdLightMode } from "react-icons/md";
-import { MdOutlineDarkMode } from "react-icons/md";
 
 function Navbar({isDark}) {
   

@@ -4,7 +4,6 @@ import Home from './Pages/Home/Home';
 import ProductDetails from './Pages/ProductDetails/ProductDetails';
 import Navbar from './Components/Navbar/Navbar'
 import Compare from './Pages/Compare/Compare';
-import { useEffect, useState } from 'react';
 
 function App() {
   

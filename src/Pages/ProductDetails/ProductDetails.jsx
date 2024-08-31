@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Table, Alert, Button } from "antd";
 import "./ProductDetails.css";
-import { Link, useNavigate } from "react-router-dom";
+import {useNavigate } from "react-router-dom";
 
 const ProductDetails = () => {
   const navigate = useNavigate();

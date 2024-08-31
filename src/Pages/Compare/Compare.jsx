@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Table, Alert, Button, Modal, Checkbox, Row, Col } from "antd";
+import { Table, Alert, Button, Modal, Checkbox } from "antd";
 import "./Compare.css";
 
 const Compare = () => {
