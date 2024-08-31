@@ -1,0 +1,46 @@
+.SidebarBtn {
+    margin: auto;
+}
+
+.navSideBtn {
+    margin: 0;
+}
+
+
+.SidebarOpen, .SidebarNavOpen {
+    transition: width 100s ease-in-out;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    width: 90%;
+    height: 100vh;
+    background-color: rgb(123, 104, 238);
+    position: absolute;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    z-index: 200;
+    left: 0;
+}
+
+.SidebarClose {
+    transition: width 100s ease-in-out;
+    width: 0;
+    height: 0;
+    display: none;
+}
+
+.profile {
+    padding: 0.5rem;
+    background: white;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+@media (min-width: 600px) {
+    .SidebarOpen, .SidebarNavOpen {
+        width: 30%;
+    }
+}

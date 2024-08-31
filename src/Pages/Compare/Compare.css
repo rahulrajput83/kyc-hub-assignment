@@ -1,0 +1,15 @@
+.Products {
+  margin-top: 4.5rem;
+}
+
+.header {
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header span {
+  font-weight: 550;
+}

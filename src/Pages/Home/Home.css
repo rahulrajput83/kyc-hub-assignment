@@ -1,0 +1,14 @@
+.Home {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    gap: 5rem;
+    margin-top: 4.5rem;
+}
+
+.error {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    z-index: 1000;
+  }
