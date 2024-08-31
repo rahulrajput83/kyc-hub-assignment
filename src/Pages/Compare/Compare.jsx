@@ -84,7 +84,7 @@ const Compare = () => {
   };
 
   const remove = (id) => {
-    let newCompare = data.filter((product) => product.id != id);
+    let newCompare = data.filter((product) => product.id !== id);
     setData(newCompare);
     localStorage.setItem("compare", JSON.stringify(newCompare || []));
     getData();

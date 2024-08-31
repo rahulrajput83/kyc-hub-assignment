@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Button } from "antd";
 import { GoSidebarExpand } from "react-icons/go";
 import "./Sidebar.css";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Sidebar = ({ navbar }) => {
   const navigate = useNavigate();
