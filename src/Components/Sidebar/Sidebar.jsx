@@ -30,8 +30,8 @@ const Sidebar = ({ navbar }) => {
         <div className={`SidebarNavOpen ${!openSidebar && "SidebarClose"}`}>
           {openSidebar && (
             <>
-              <Button type="primary" onClick={handleProduct}>Product Details</Button>
-              <Button type="primary" onClick={checkProducts}>Compare Products</Button>
+              <Button onClick={handleProduct}>Product Details</Button>
+              <Button onClick={checkProducts}>Compare Products</Button>
             </>
           )}
         </div>
@@ -39,8 +39,8 @@ const Sidebar = ({ navbar }) => {
         <div className={`SidebarOpen ${!openSidebar && "SidebarClose"}`}>
           {openSidebar && (
             <>
-              <Button type="primary" onClick={handleProduct}>Product Details</Button>
-              <Button type="primary" onClick={checkProducts}>Compare Products</Button>
+              <Button onClick={handleProduct}>Product Details</Button>
+              <Button onClick={checkProducts}>Compare Products</Button>
             </>
           )}
         </div>
